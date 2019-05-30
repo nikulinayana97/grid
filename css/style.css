@@ -74,6 +74,10 @@ a{
 	width: calc(100vw - 20px);
 }
 
+.img--big{
+	height: 100%;
+}
+
 .article__info{	
 	margin-top: 27px;
 	padding: 0 15px 20px;
@@ -99,10 +103,6 @@ a{
 	color: #818181;
 }
 
-.article__time--none{
-	content: '';
-}
-
 .article__big:before{
 	content: "";
 	position: absolute;
@@ -120,10 +120,15 @@ a{
 	margin-bottom: 0;
 }
 
+.time--none{
+	margin-top: 4em;
+}
+
 .article-author__img{
 	width: 56px;
 	height: 56px;
-	margin-bottom: 25px;
+	margin-top: 57px;
+    margin-bottom: 5px;
 	border-radius: 50%;
 }
 
